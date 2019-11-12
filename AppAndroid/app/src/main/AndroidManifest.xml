@@ -11,10 +11,19 @@
         android:theme="@style/AppTheme">
         <activity android:name=".HeThong"
             android:label="Hệ Thống"
+            android:label="Mua Credit"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ailatrieuphu.MainActivity" /></activity>
+        <activity
+            android:name=".HeThong"
+            android:label="Hệ Thống"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ailatrieuphu.MainActivity" />
+        </activity>
         <activity
             android:name=".DangNhap"
             android:label="ĐĂNG NHẬP"
