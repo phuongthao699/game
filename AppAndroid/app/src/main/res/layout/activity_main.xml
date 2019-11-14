@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    android:backgroundTint="#FFFFFF"
     tools:context=".MainActivity">
 
     <Button
@@ -12,42 +14,48 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:backgroundTint="#DF9A9A"
-        android:text="@string/ch_i_game"
         android:onClick="inGame"
+        android:text="@string/ch_i_game"
         app:layout_constraintBottom_toTopOf="@+id/btn_Bang_xep_hang"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints,OnClick" />
+
     <Button
         android:id="@+id/btn_QL_TK"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
+        android:backgroundTint="#00B8D4"
         android:text="@string/qu_n_l_t_i_kho_n"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/btn_Bang_xep_hang"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
+        android:background="#64DD17"
         android:text="@string/b_ng_x_p_h_ng"
         app:layout_constraintBottom_toTopOf="@+id/btn_Mua_Credit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/btn_Mua_Credit"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="@string/mua_credit"
+        android:backgroundTint="#FFAB00"
         android:onClick="muaCredit"
+        android:text="@string/mua_credit"
         app:layout_constraintBottom_toTopOf="@+id/btn_QL_TK"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -59,12 +67,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:contentDescription="TODO"
         android:onClick="Login"
         app:layout_constraintEnd_toStartOf="@+id/ic_HuongDan"
         app:layout_constraintTop_toTopOf="@+id/ic_HuongDan"
         app:srcCompat="@android:drawable/ic_input_add"
-        tools:ignore="MissingConstraints,OnClick"
-        android:contentDescription="TODO" />
+        tools:ignore="MissingConstraints,OnClick" />
 
     <ImageButton
         android:id="@+id/ic_HuongDan"
@@ -83,11 +91,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:contentDescription="TODO"
         android:onClick="hethong"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/ic_menu_edit"
-        android:contentDescription="TODO" />
+        app:srcCompat="@android:drawable/ic_menu_edit" />
 
     <ImageView
         android:id="@+id/ic_Game_TraLoi"

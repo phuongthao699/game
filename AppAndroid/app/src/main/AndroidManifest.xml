@@ -9,12 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mua_Credit"
-            android:label="Mua Credit"
+        <activity android:name=".mua_goi_Credit"
+            android:label="Mua  gói Credit"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.ailatrieuphu.MainActivity" /></activity>
+        <activity
+            android:name=".QuanLyTK"
+            android:label="Quản Lý Tài Khoản"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ailatrieuphu.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mua_Credit"
+            android:label="Mua Credit"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ailatrieuphu.MainActivity" />
+        </activity>
         <activity
             android:name=".HeThong"
             android:label="Hệ Thống"
