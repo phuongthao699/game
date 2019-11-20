@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AiLaTrieuPhu</string>
+    <string name="ch_i_game">Chơi Game</string>
+    <string name="qu_n_l_t_i_kho_n">Quản Lý Tài Khoản</string>
+    <string name="b_ng_x_p_h_ng">Bảng Xếp Hạng</string>
+    <string name="mua_credit">Mua Credit</string>
+    <string name="t_i_kho_n">Tài khoản</string>
+    <string name="activity2_name">login</string>
+    <string name="trang_chu">Trang Chu</string>
+</resources>
